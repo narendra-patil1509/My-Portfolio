@@ -1,74 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    </head>
-    <body>
-        <header class="header">
-            <a href="#" class="logo">Portfolio.</a>
-            <nav class="navbar">
-                <a href="#" style="--i:1" class="active">Home</a>
-                <a href="#" style="--i:2">About</a>
-                <a href="#" style="--i:3">Skills</a>
-                <a href="#" style="--i:4">Portfolio</a>
-                <a href="#" style="--i:5">Contact</a>
-            </nav>
-        </header>
-        <section class="home">
-            <div class="home-content">
-                <h3>Hello, It's Me</h3>
-                <h1>Narendra Patil</h1>
-                <h3>And I'm a
-                    <span class="multiple-text">Student</span>
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur,
-             adipisicing elit. Neque quia totam
-             illum sapiente autem esse rem odio!
-                </p>
-                <div class="social-media">
-                    <a href="#" style="--i:7">
-                        <i class="bx bxl-facebook"></i>
-                    </a>
-                    <a href="#" style="--i:8">
-                        <i class="bx bxl-instagram-alt"></i>
-                    </a>
-                    <a href="#" style="--i:9">
-                        <i class="bx bxl-linkedin"></i>
-                    </a>
-                    <a href="#" style="--i:10">
-                        <i class="bx bxl-twitter"></i>
-                    </a>
-                </div>
-                <a href="#" class="btn">Download CVF</a>
-            </div>
-            <div class="home-img">
-                <img src="profile-pic (2).png" alt="">
-            </div>
-        </section>
 
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="profile-pic (2).png" alt="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello It's Me</h3>
+            <h1>Narendra Patil</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio iure culpa atque a, consequuntur quod.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <div class="about-content">
-                <h2 class="heading">About <span>Me</span></h2>
-                <h3>Frontend Developer</h3>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile-pic.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dignissimos. Aliquam praesentium temporibus distinctio eligendi? Quaerat possimus tempore amet dolore porro ea minus rerum, dolores perferendis officiis. Voluptas in inventore, harum vitae optio dolore accusantium necessitatibus nobis saepe. Ullam culpa dolorem cupiditate molestiae voluptates repellendus eaque?</p>
+            
+            
+            
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bxs-paint"></i>
+                <h3>Graphic Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Sed nam accusamus, ad inventore libero at officiis adipisci,
-                    aut autem voluptate, obcaecati debitis totam illum consequatur nihil. Aliquid quidem consequuntur enim, natus alias, nisi molestiae adipisci,
-                     omnis at sapiente quae a praesentium culpa laboriosam?</p>
-                     <a href="#" class="btn">Read More</a>
+                   Ab veritatis dignissimos facilis dolore impedit veniam, sit pariatur nulla quo nobis!</p>
+                <a href="#" class="btn">Read More</a>
             </div>
-        </section>
 
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.012"></script> -->
-        <script src="script.js"></script>
-    </body>
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Ab veritatis dignissimos facilis dolore impedit veniam, sit pariatur nulla quo nobis!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="services-box">
+                <i class="bx bx-bar-chart-alt"></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Ab veritatis dignissimos facilis dolore impedit veniam, sit pariatur nulla quo nobis!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fuga?</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fuga?</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fuga?</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fuga?</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fuga?</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fuga?</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+</body>
 </html>
